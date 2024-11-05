@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #87986a;
+    font-family: "Montserrat", sans-serif;
+}
+
+a{
+    color: wheat;
+    text-decoration: none;
+
+}
+
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 25px 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar .logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: #013220;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+   list-style: none;
+   margin-left: 35px;
+}
+
+.navbar ul li a{
+   font-size: 20px;
+   font-weight: 500;
+   transition: .5s;
+ }
+
+ .navbar ul li:hover a{
+    color: orange;
+  }
+
+  .home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 60px 9% 0;
+    color: wheat;
+  }
+
+  .home-info h1 {
+    font-size: 55px;
+  }
+
+  .home-info h2{
+    font-size: 32px;
+    margin-top: -10px;
+  }
+
+  .home-info p{
+    font-size: 16px;
+    margin: 10px 0 25px;
+  }
+
+  .home-info .btn-sci{
+    display: flex;
+    align-items: center;
+  }
+
+  .btn{
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    transition: .6;
+  }
+
+  .btn:hover{
+    color: orange;
+  }
+
+.home-img .img-box{
+    width: 32vw;
+    height: 32vw;
+    background: #87986a;;
+    border-radius: 50%;
+}
+
+.home-img .img-box .img-item{
+    position: relative;
+    height: 500px;
+    background: #87986a;
+    border-radius: 50%;
+}
+.home-img .img-box .img-item img{
+    position: absolute;
+    width: 90%;
+   display: block;
+    object-fit: cover;
+    margin-left: 50%;
+}
+
+span h1{
+    color: pink;
+}
+
